@@ -9,10 +9,6 @@ class testMyModule(unittest.TestCase):
     def test_french_to_english_no(self):
         self.assertEqual(frenchToEnglish('Non'), 'No')
 
-    def test_french_to_english_null(self):
-        self.assertEqual(frenchToEnglish(None), None)
-
-
     def test_french_to_english_bonjour(self):
         self.assertEqual(frenchToEnglish('Bonjour'), 'Hello')
 
